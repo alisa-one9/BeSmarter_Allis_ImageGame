@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/drawable-v24/btn_style_next_previous.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/drawable-v24/ic_turan_logo.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/drawable-v24/img_style_stroked_3_rounded_30px.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/fragment_image_game.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/fragment_result_image_game.xml" value="0.12777777777777777" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/fragment_start_image.xml" value="0.1" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/item_custom_qweez_toolbar.xml" value="0.4" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/layout/item_custom_toolbar.xml" value="0.16" />
+        <entry key="..\:/Users/Notnik_kg/BeSmarter_Allis_ImageGame/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

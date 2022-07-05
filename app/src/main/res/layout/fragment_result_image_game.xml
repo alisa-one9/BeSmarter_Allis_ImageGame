@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.notifications.Result_ImageGameFragment">
+
+    <include
+        android:id="@+id/toolbar_result"
+        layout="@layout/item_custom_qweez_toolbar" />
+
+    <ImageView
+        android:id="@+id/one_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image_05" />
+
+    <TextView
+        android:id="@+id/one_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/btn_next_previous"
+        android:text="05"
+        android:textSize="35sp"
+        android:visibility="invisible"
+         />
+
+    <EditText
+        android:id="@+id/one_number_from_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:hint="введите номер картинки"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_one_check"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/btn_style_next_previous"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Проверить"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_verno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Верно!"
+        android:textSize="26sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_neverno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Неверно!"
+        android:textSize="26sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ваши баллы:"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_result_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textSize="26sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

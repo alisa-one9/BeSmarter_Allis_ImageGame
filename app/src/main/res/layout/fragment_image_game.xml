@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.home.ImageGameFragment"
+    android:background="@color/gray_main"
+    android:orientation="vertical"
+    android:padding="3dp">
+    <include
+        android:id="@+id/item_toolbar"
+        layout="@layout/item_custom_toolbar"
+        >
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:background="#E5E5E5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/image_first"
+                    android:layout_width="165dp"
+                    android:layout_height="156dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/img_style_stroked_3_rounded_30px"
+                    android:src="@drawable/image_00"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginLeft="10dp"
+                >
+                <ImageView
+                    android:id="@+id/image_second"
+                    android:layout_width="165dp"
+                    android:layout_height="156dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/img_style_stroked_3_rounded_30px"
+                    android:src="@drawable/image_05"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/number01"
+                android:layout_width="62dp"
+                android:layout_height="29dp"
+                android:layout_marginRight="75dp"
+                android:text="00"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="24sp"
+                android:textColor="#595147"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/number02"
+                android:layout_width="62dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="75dp"
+                android:text="05"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="24sp"
+                android:textColor="#595147"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginRight="10dp">
+
+                <ImageView
+                    android:id="@+id/image_third"
+                    android:layout_width="165dp"
+                    android:layout_height="156dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/img_style_stroked_3_rounded_30px"
+                    android:src="@drawable/image_09"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:id="@+id/image_fourth"
+                    android:layout_width="165dp"
+                    android:layout_height="156dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/img_style_stroked_3_rounded_30px"
+                    android:src="@drawable/image_13"/>
+            </androidx.cardview.widget.CardView>
+      </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/number03"
+                android:layout_width="62dp"
+                android:layout_height="29dp"
+                android:layout_marginRight="75dp"
+                android:text="09"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="24sp"
+                android:textColor="#595147"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/number04"
+                android:layout_width="62dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="75dp"
+                android:text="13"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_medium"
+                android:textSize="24sp"
+                android:textColor="#595147"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progress_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_backk"
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="предидущие"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:visibility="invisible"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_nextt"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="следующие картинки"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_to_result_frag"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_style_next_previous"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="перейти к введению номеров картинок ->"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Количество картинок: "
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_counterIm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="20dp"
+            android:text="12"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

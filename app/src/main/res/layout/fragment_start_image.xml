@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.dashboard.StartImageGameFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/item_custom_toolbar" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotty"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="6dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/start_image_Btn"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Начать игру"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:visibility="invisible"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/rao_Btn"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="выберите количество картинок для запоминания"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_with_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:visibility="visible">
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:text="8"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:text="12"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_16"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:text="16"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_20"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btn_style_next_previous"
+            android:text="20"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

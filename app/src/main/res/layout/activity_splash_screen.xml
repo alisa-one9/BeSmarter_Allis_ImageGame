@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.SplashScreenActivity"
+    android:background="#E5E5E5"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_turan_logo"
+
+        />
+
+    <TextView
+        android:id="@+id/app_name_memory"
+        android:layout_width="212dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="394dp"
+        android:textSize="44sp"
+        android:textColor="#211C44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="MEMORY"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

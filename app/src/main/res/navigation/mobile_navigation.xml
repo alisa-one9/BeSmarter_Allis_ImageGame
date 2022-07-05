@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_start_image_game">
+
+    <fragment
+        android:id="@+id/navigation_image_game"
+        android:name="com.example.besmarter_allis_imagegame.presentation.ui.home.ImageGameFragment"
+        android:label="ImageGame"
+        tools:layout="@layout/fragment_image_game" />
+
+    <fragment
+        android:id="@+id/navigation_start_image_game"
+        android:name="com.example.besmarter_allis_imagegame.presentation.ui.dashboard.StartImageGameFragment"
+        android:label="Start Image Game"
+        tools:layout="@layout/fragment_start_image" />
+
+    <fragment
+        android:id="@+id/navigation_result_image_game"
+        android:name="com.example.besmarter_allis_imagegame.presentation.ui.notifications.Result_ImageGameFragment"
+        android:label="Results Image Game"
+        tools:layout="@layout/fragment_result_image_game" />
+</navigation>
